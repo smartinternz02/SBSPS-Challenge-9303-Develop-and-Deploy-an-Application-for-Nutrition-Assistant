@@ -13,7 +13,7 @@ This is a web application which helps people to keep track of their health by fi
 ## Application Structure
 
 ### LOG IN PAGE:
-This page is used to grant acces to registered uses.To check whether the user has registered befor or not we use  **IBM_DB2**.
+This page is used to grant acces to registered uses.To check whether the user has registered before or not we use  **IBM_DB2**.
 when the user log's in using his/her crendentials it is automatically compared with all the entries in **IBM_DB2** and if a prefect match is found the user is redirected to **HOME PAGE**. 
 If not the user is **not an authenticated user** then he is redirected to **register page.**
 
