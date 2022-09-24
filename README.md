@@ -41,3 +41,13 @@ This is the page where the user can choose various options available such as
 
 This page uses **BMI model** which was trained to predict BMI value of a user with his Height and Weight.
 
+#### Snapshot of Dataset use
+
+
+### Calories
+
+This page requests user to insert image of the food .This image is further send to food_Detection model to detect the food.This page also requests the user to enter the quantify of food intake in servings then the output from the model and this servings are both used to calculate the calorie of the food eaten by the user.
+
+below is the snapshot taken during training of the model.
+
+![image](https://user-images.githubusercontent.com/104611878/192081493-1308b6e9-b28d-4159-9f20-cc7c6d2cb8c7.png)
