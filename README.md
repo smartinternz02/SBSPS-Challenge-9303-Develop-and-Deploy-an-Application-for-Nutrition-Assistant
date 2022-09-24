@@ -41,7 +41,8 @@ This is the page where the user can choose various options available such as
 
 This page uses **BMI model** which was trained to predict BMI value of a user with his Height and Weight.
 
-#### Snapshot of Dataset use
+#### Snapshot of Dataset used
+![bmi dataset snapshot](https://user-images.githubusercontent.com/104611878/192081846-0c2feca1-fd99-4315-8500-1db966431c6a.png)
 
 
 ### Calories
