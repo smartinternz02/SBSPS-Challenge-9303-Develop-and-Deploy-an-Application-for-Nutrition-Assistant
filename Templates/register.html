@@ -1,0 +1,26 @@
+<html>
+<head> 
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body style="background-image:url({{url_for('static',filename='images/bg_2.jpg')}});background-repeat:no-repeat;background-attached:fixed;background-size:cover;height:100vh">
+  <div class="box">
+    <center>
+      <h1><b> Registration </b></h1>
+      <form action="register" method="POST">
+          <p><label>Name :</label>
+             <input type="text" name="Name" class="input input:focus" placeholder="Name" required></p>
+          <p><label>Email :</label>
+             <input type="email" name="Email" class="input input:focus" placeholder="Email/Username" required></p>     
+          <p><label>Password :</label>
+             <input type="password" name ="Password" class="input input:focus" placeholder="password" required></p>
+          <p><label>Phone :</label>  
+             <input type="text" name="country code"  class="input input:focus"  value="+91" size="2">   
+          <input type="text" name="phone" class="input input:focus" size="10"></p>
+      </form>
+      <form action="success" method="GET">
+       <p><button type="submit" class="btn btn:hover"> Register </button></p>
+      </form>
+   </center>
+   </div>
+</body>
+</html>

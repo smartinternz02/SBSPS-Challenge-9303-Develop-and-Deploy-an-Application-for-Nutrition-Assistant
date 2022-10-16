@@ -1,0 +1,23 @@
+<html>
+<head> 
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-image:url({{url_for('static',filename='images/bg_2.jpg')}});background-repeat:no-repeat;background-attached:fixed;background-size:cover;height:100vh">
+  <div class= "box">
+  <center>
+    <center><h1><b> NUTRITION ASSISTANT </b></h1></center>
+    <center><h2> Login</h2></center>
+    <form action="welcome" method="GET">
+       <p><input type="email" name="Email" class="input input:focus" placeholder="Email/Username" required></p>
+
+       <p><input type="password" name ="Password" class="input input:focus" placeholder="password" required></p>
+       
+       <p><button type="submit" class="btn btn:hover" > Login </button><p>
+    </form>
+    <form action="register" method="POST"> 
+       <p><button type="submit" class="btn btn:hover"> Register </button><p>
+    </form>
+  </center>
+  </div>
+</body>
+</html>

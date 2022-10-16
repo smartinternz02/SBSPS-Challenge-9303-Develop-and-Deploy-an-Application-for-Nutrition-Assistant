@@ -1,0 +1,21 @@
+<html>
+<Head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-image:url({{url_for('static',filename='images/bg_2.jpg')}});background-repeat:no-repeat;background-attached:fixed;background-size:cover;height:100vh" >
+<div class="box">
+  <center>
+   <h1><b>WELCOME</b></h1>
+   <form action="bmicalculator"  method="POST">
+      <button input type="submit" class="btn btn:hover"><b>BMI CALCULATOR</b></button>
+    </form>
+   <form action="calorie" method="POST">
+      <button input type="submit" class="btn btn:hover"><b> CALORIES </b></button>
+   </form>
+   <form action="biologicalage" method="POST">
+     <button input type="submit" class="btn btn:hover"><b> BIOLOGICAL AGE </b></button>
+   </form>
+  </center>
+</div>
+</body>
+</html>

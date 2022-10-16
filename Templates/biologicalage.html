@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> Biological Age Calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="background-image: linear-gradient(to right, rgba(238,174,202,100), rgba(148,187,233,100))">
+<center>
+  <h1> Biological Age Calculator</h1>
+<form action="/bioagecalc" method="GET">
+<h2><b>Enter your Age:</b> </h2>
+<input type="number" class="input input:focus" name="Age" ><br>
+<h2><b>Enter your Weight: </b> </h2>
+<input type="number" class="input input:focus" name="Weight" ><br>
+<h2><b>Enter your Height:  </b></h2>
+<input type="number" class="input input:focus" name="Height" "><br>
+<input type="Submit" class="btn btn:hover"value="Calculate">
+</form>
+
+<h1>{{info}}</h1>

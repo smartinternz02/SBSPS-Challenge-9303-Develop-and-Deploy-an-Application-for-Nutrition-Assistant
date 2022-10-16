@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>BMI calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="background-image: linear-gradient(to right, rgba(238,174,202,100), rgba(148,187,233,100))">
+<center>
+<form action="/bmi" method="GET">
+<h2><b>Enter your Weight: </b> </h2>
+<input type="number" class="input input:focus" name="Weight" ><br>
+<h2><b>Enter your Height:  </b></h2>
+<input type="number" class="input input:focus" name="Height" "><br>
+<input type="Submit" class="btn btn:hover"value="Calculate">
+</form>
+
+<h1>{{info}}</h1>
+<img src="{{url_for('static',filename='images/bmi_img.jpg')}}" alt="BMI" width="600" height="300">
