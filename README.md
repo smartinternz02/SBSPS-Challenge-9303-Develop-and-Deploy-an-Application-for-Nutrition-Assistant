@@ -45,7 +45,8 @@ This page uses **BMI model** which was trained to predict BMI value of a user wi
 ![bmi dataset snapshot](https://user-images.githubusercontent.com/104611878/192081846-0c2feca1-fd99-4315-8500-1db966431c6a.png)
 
 #### Snapshot of BMI Calculator Web
-![image](https://user-images.githubusercontent.com/103987530/196037853-926330b6-0c1e-4a47-b825-10d05f5a0969.png)
+![image](https://user-images.githubusercontent.com/103987530/196039052-6cc304cc-d855-4375-934c-b9409598e826.png)
+
 
 ### Calories
 
@@ -55,12 +56,22 @@ below is the snapshot taken during training of the model.
 
 ![image](https://user-images.githubusercontent.com/104611878/192081493-1308b6e9-b28d-4159-9f20-cc7c6d2cb8c7.png)
 
-#### Snapshots of Food dedection with Calories 
+#### Snapshots of Food dedection with predicted Calories based 
 ![image](https://user-images.githubusercontent.com/103987530/196038022-88ebf9b0-9dd7-4734-a5a2-5f68a825725b.png)
 
-![image](https://user-images.githubusercontent.com/103987530/196038070-d21bc008-3db3-4147-9473-702472713b9f.png)
+![image](https://user-images.githubusercontent.com/103987530/196038747-04bc83a4-4ccf-47bb-8cf1-b7ba6e165426.png)
 
-![image](https://user-images.githubusercontent.com/103987530/196038082-28d12536-c5ee-4d14-b97a-fd18552ff383.png)
+![image](https://user-images.githubusercontent.com/103987530/196038762-f67c668c-829b-4159-9a4b-312d9ed1d9f7.png)
+
+![image](https://user-images.githubusercontent.com/103987530/196038840-fb6de36a-48a8-44d6-aa9c-18b1e5c1529f.png)
+
+![image](https://user-images.githubusercontent.com/103987530/196038846-f87839b3-a270-4407-a931-4fe185da914c.png)
+
+![image](https://user-images.githubusercontent.com/103987530/196038944-cfc8dc95-30e8-41a4-8654-5af486cf5f7d.png)
+
+![image](https://user-images.githubusercontent.com/103987530/196038958-aebdff93-8109-47ae-8d89-6d2a1557074b.png)
+
+
 
 ### Biological Age Calculator
 
@@ -71,7 +82,4 @@ This page requests the user to give their Chronological age along with their Hei
 ![image](https://user-images.githubusercontent.com/103987530/196038578-b3b3df4e-d0a2-4aec-89e5-683dfb69f44f.png)
 
 ![image](https://user-images.githubusercontent.com/103987530/196038591-4aa9f1d8-aa28-4ef3-a5c4-90724eb52f4e.png)
-
-
-
 
